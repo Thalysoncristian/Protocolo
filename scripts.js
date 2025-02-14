@@ -26,7 +26,7 @@ document.getElementById("site-search").addEventListener("input", function() {
     const dropdownContent = document.getElementById('dropdown-content');
     dropdownContent.innerHTML = '';
 
-    if (filter.length >= 3) {
+    if (filter.length >= 1) {
         for (let i = 0; i < options.length; i++) {
             const optionText = options[i].text.toUpperCase();
             if (optionText.includes(filter)) {
