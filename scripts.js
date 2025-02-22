@@ -17482,11 +17482,11 @@ function abrirGoogleMaps() {
     const coords = coordenadas[site];
 
     if (coords) {
-        const url = `https://www.google.com/maps/dir/?api=1&destination=${coords.lat},${coords.lng}`;
-        window.open(url, '_blank');
-    } else {
-        alert('Coordenadas não encontradas para o site selecionado.');
-    }
+      const url = `https://www.google.com/maps?q=${coords.lat},${coords.lng}&z=15`;
+      window.open(url, '_blank');
+  } else {
+      alert('Coordenadas não encontradas para o site selecionado.');
+  }
 }
 
 document.addEventListener('click', function(event) {
