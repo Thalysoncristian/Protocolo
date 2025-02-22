@@ -3323,9 +3323,15 @@
             <label for="atendente">Atendente:</label>
             <input type="text" id="atendente" placeholder="DIGITE O ATENDENTE">
 
-            <button type="button" onclick="gerarAcionamento()">Gerar Acionamento</button>
-            <button type="button" onclick="copiarAcionamento()">Copiar Acionamento</button>
-            <button type="button" id="rotasButton" onclick="abrirGoogleMaps()" style="display: none;">Rotas</button>
+            <button type="button" onclick="gerarAcionamento()">
+                <i class="fa fa-cogs"></i> Gerar
+            </button>
+            <button type="button" onclick="copiarAcionamento()">
+                <i class="fa fa-copy"></i> Copiar
+            </button>
+            <button type="button" id="rotasButton" onclick="abrirGoogleMaps()" style="display: none;">
+                <i class="fa fa-map-marker"></i> localização
+            </button>
         </form>
         
         <div class="result" id="resultado"></div>
