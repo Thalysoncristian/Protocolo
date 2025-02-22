@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Informativo de Protocolo</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="styles.css">
-    
+    <link rel="stylesheet" href="styles.css">
+     
 </head>
 <body>
     <div class="container">
@@ -3309,7 +3309,7 @@
                 <option value="RSO SLS*3010221780*R. TRINTA, S/N, AREINHA">RSO SLS</option>
                 <option value="VNTE*5888697*BR 010, KM 1646 – PARAGOMINAS/PA">VNTE</option>
                 <option value="ZED GDI*SEM UC*R. GONÇALVES DIAS, 32 CENTRO ZÉ DOCA/MA">ZED GDI</option> 
-        </select>
+             </select>
             
             <label for="uc">UC:</label>
             <input type="text" id="uc" readonly>
@@ -3325,6 +3325,7 @@
 
             <button type="button" onclick="gerarAcionamento()">Gerar Acionamento</button>
             <button type="button" onclick="copiarAcionamento()">Copiar Acionamento</button>
+            <button type="button" id="rotasButton" onclick="abrirGoogleMaps()" style="display: none;">Rotas</button>
         </form>
         
         <div class="result" id="resultado"></div>
@@ -3337,4 +3338,4 @@
     Thalyson Silva - NOC - STTE - 
     <a href="mailto:thalyson.silva.pa@stte.com.br" class="text-primary">thalyson.silva.pa@stte.com.br</a>
 </p>
-</html>  
+</html> 
