@@ -17503,7 +17503,6 @@ function limparCampos() {
 }
 
 
-
 // Adiciona a chamada para limparCampos antes de preencher novos dados
 document.getElementById('site-search').addEventListener('input', function() {
     limparCampos();
