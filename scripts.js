@@ -17502,6 +17502,8 @@ function limparCampos() {
     document.getElementById('endereco').value = '';
 }
 
+
+
 // Adiciona a chamada para limparCampos antes de preencher novos dados
 document.getElementById('site-search').addEventListener('input', function() {
     limparCampos();
@@ -17529,3 +17531,5 @@ document.getElementById('site-search').addEventListener('input', function() {
         dropdownContent.classList.remove('show');
     }
 }); 
+
+
